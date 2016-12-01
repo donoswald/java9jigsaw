@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java9jigsaw.iml" filepath="$PROJECT_DIR$/.idea/java9jigsaw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jigsaw/jigsaw.iml" filepath="$PROJECT_DIR$/jigsaw/jigsaw.iml" />
     </modules>
   </component>
 </project>

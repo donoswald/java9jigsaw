@@ -12,8 +12,15 @@ javac -d ../build  --module-path ../../mail-api/build/mail-api.jar $(find . -nam
 cd ../build
 jar --create --file mail-service.jar --module-version 1.0 $(find . -name "*.class")
 cd ../..
+
 rm -rf mail-example.jar
-jlink --module-path mail-api/build/mail-api.jar:mail-client/build/mail-client.jar:mail-service/build/mail-service.jar:$JAVA_HOME/jmods --add-modules MailClient MailAPI MailService --output mail-example.jar
-#java -jar -p mail-example.jar
+jlink \
+  --module-path \
+    mail-api/build/mail-api.jar:mail-client/build/mail-client.jar:mail-service/build/mail-service.jar:$JAVA_HOME/jmods \
+  --add-modules \
+    MailClient MailServer \
+  --output \
+    mail-example.jar
+mail-example.jar/bin/MailClient
 #java -p mail-api/build/mail-api.jar:mail-client/build/mail-client.jar:mail-service/build/mail-service.jar -m MailClient
 

@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/mail-example/mail-service/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mail-example/mail-api/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mail-example/mail-client/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/mail-example/mail-example.jar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

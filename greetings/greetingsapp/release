@@ -1,0 +1,6 @@
+#Thu Dec 08 17:00:06 CET 2016
+MODULES=com.socket,org.astro,com.greetings,java.base
+OS_VERSION=2.6
+OS_ARCH=amd64
+OS_NAME=Linux
+JAVA_VERSION=9-Ubuntu
